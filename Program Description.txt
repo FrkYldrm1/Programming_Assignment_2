@@ -1,0 +1,43 @@
+Setup
+
+Before you run the script for the first time you will need to do some setup in order for the program to work properly!
+
+●	Install Libraries
+
+●	Run “pip install mysql-connector-python”
+
+●	Install MySql, and create a new Connection
+
+Now you can run the program without any issues
+
+Further Instructions
+
+Run these files before you run main.py:
+
+●	 createDatabase.py,
+●	createCarsTable.py,
+●	createEmployeesTable.py,
+●	createCustomerTable.py.
+
+ Make sure you put the correct host, and user password in the python code!
+
+In main.py the user is prompted choose to be a employee, a customer, or if he/she would like more information about the services
+
+Case 1: Employee
+
+●	User can view his information
+●	User can see data about the customer and the car he got
+●	User can create a view of available cars
+
+Case 2: Customer
+
+●	Customer can pick and rent the car he wants (if car is available).
+
+Case 3: More information
+
+●	The user will see a table with the employees who work that day.
+
+Case 4:
+●	The program will be stopped.
+
+When prompted to enter a name make sure you enter it like it is written in the database
